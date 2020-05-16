@@ -1,0 +1,144 @@
+body{
+    font:15px arial, helvetica ;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+}
+.contenedor {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+} 
+
+/*vuscador*/
+.boton {
+     height: 38px;
+     background: blue;
+     border: 0;
+     padding-left : 20px;
+     padding-right: 20px;
+     color: white;
+}
+
+
+header{
+    background:lawngreen;
+    color: white;
+    padding-top: 30px;
+    min-height:10px ;
+    border-bottom: 5px solid blue;
+}
+header a{
+    color:blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+header #marca {
+    float: right;
+}
+h1{
+    color: blue;
+} 
+header #marca h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header a:hover{
+    color: darkorange;
+    font-weight: bold;
+}
+#cabecera {
+    min-height: 400px;
+    background:url('../img.game.jpg')no  repert0 -400px ;
+    text-align: center;
+    color:blue;
+} 
+#cabecera h1{
+    margin-top:100px;
+    font-size: 55px;
+      margin-bottom:10px ;
+}
+#cabecera p {
+    font-size: 20px;
+}
+#boletin {
+    padding: 15px;
+    color: ivory;
+    background:lawngreen;
+}
+#boletin h1 {
+    float: left;
+}
+#boletin form {
+    float: right;
+   margin-top: 15px;
+}
+#boletin input[type='email']{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+#cajas a { 
+    color: darkorange;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: dotted;
+
+} 
+#cajas{
+    margin-top: 20px;
+} 
+
+aside#lateral{
+    float:right;
+    width:30%;
+    margin-top: 10px;
+}
+.oscuro{
+    padding: 15px;
+    background-color:green ;
+    color: honeydew;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+article.main-col{
+    float: left;
+    width: 65%;
+}
+ul#servicios li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    background-color: grey;
+}
+#cajas .caja{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#cajas .caja img{
+width: 90px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:blue;
+    background-color:lawngreen;
+    text-align: center;
+}
+input{lawngree}
